@@ -23,7 +23,7 @@
   // context/environment props
   export let showcase = false;
 
-  const server = import.meta.env.VITE_CDN;
+  const server = "https://poke-holo.b-cdn.net";//import.meta.env.VITE_CDN;
   /**
    * Shiny Vault Card (starts with sv)
    */
@@ -95,6 +95,7 @@
   }
   
   function foilMaskImage ( prop, type = "masks" ) {
+    console.log("foilMaskImage ", {prop, type});
 
     let etch = "holo";
     let style = "reverse";
@@ -217,7 +218,9 @@
   }
 
   function foilImage () {
-    return foilMaskImage( foil, "foils" );
+    const x = foilMaskImage( foil, "foils" );
+    console.log("foilImage ", {foil, x});
+    return x;
   }
 
   function maskImage () {

@@ -1,3 +1,8 @@
+# Get Started
+npm install vite
+npm install
+npm run dev
+
 # Pokémon Cards Holographic effect in CSS
 
 This is a repository holder for the Pokemon Cards CSS Holographic effect.  
