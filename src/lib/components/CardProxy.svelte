@@ -85,7 +85,9 @@
   }
 
   function cardImage () {
+    console.log( img, set, number );
     if ( isDefined( img ) ) {
+      console.log( img );
       return img;
     }
     if ( isDefined( set ) && isDefined( number ) ) {
@@ -95,7 +97,6 @@
   }
   
   function foilMaskImage ( prop, type = "masks" ) {
-    console.log("foilMaskImage ", {prop, type});
 
     let etch = "holo";
     let style = "reverse";
@@ -213,14 +214,12 @@
 
     }
 
-    return `${ server }/foils/${ fSet }/${ type }/upscaled/${ fNumber }_foil_${ etch }_${ style }_2x.${ ext }`;
+    return "http://localhost:5173/webp/angular.webp" //`${ server }/foils/${ fSet }/${ type }/upscaled/${ fNumber }_foil_${ etch }_${ style }_2x.${ ext }`;
 
   }
 
   function foilImage () {
-    const x = foilMaskImage( foil, "foils" );
-    console.log("foilImage ", {foil, x});
-    return x;
+    return foilMaskImage( foil, "foils" );;
   }
 
   function maskImage () {

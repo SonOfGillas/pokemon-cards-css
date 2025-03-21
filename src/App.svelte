@@ -23,7 +23,7 @@
 		return getCards()
 			.then((cards) => {
 				window.cards = cards;
-				showcase = cards[0];
+				showcase = cards[91];
 				basics = cards.slice(1, 4);
 				reverse = [...cards.slice(4, 7), ...cards.slice(70,76)];
 				holos = cards.slice(7, 13);
@@ -88,6 +88,7 @@
 					name={showcase.name}
 					set={showcase.set}
 					number={showcase.number}
+					img={showcase.images.large}
 					types={showcase.types}
 					supertype={showcase.supertype}
 					subtypes={showcase.subtypes}
@@ -113,6 +114,7 @@
 		</section>
 	</header>
 
+	<!--
 	<Search bind:query />
 
 	{#if query.length < 3}
@@ -677,6 +679,7 @@
 		</CardList>
 
 	{/if}
+	-->
 </main>
 
 <div class="back-to-top">

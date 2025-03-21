@@ -1424,5 +1424,21 @@
       "foil": "/img/foils/swsh45/foils/sv107_foil_etched_swsecret.jpg",
       "mask": "/img/foils/swsh45/masks/sv107_foil_etched_swsecret.png"
     }
+  },
+  {
+    "id": "swsh11-186",
+    "set": "swsh11",
+    "name": "Fenicottero",
+    "supertype": "Pokémon",
+    "subtypes": ["Basic", "V"],
+    "types": ["Dragon"],
+    "number": "186",
+    "rarity": "Rare Ultra",
+    "images": {
+      "small": "http://localhost:5173/cards_image/Phoenicopterus_roseus.png",
+      "large": "http://localhost:5173/cards_image/Phoenicopterus_roseus.png",
+      "foil": "/img/foils/swsh11/foils/186_foil_etched_sunpillar.jpg",
+      "mask": "/img/foils/swsh11/masks/186_foil_etched_sunpillar.png"
+    }
   }
 ]
