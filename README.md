@@ -3,6 +3,9 @@ npm install vite
 npm install
 npm run dev
 
+# Foil effect
+it can be set in the foilMaskImage metod inside CardProxy.svelte
+
 # Pokémon Cards Holographic effect in CSS
 
 This is a repository holder for the Pokemon Cards CSS Holographic effect.  

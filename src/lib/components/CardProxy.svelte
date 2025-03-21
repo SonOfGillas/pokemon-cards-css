@@ -213,8 +213,8 @@
       }
 
     }
-
-    return "http://localhost:5173/webp/angular.webp" //`${ server }/foils/${ fSet }/${ type }/upscaled/${ fNumber }_foil_${ etch }_${ style }_2x.${ ext }`;
+    //masks can be found in the /webp folder
+    return "http://localhost:5173/webp/illusion2.webp" //`${ server }/foils/${ fSet }/${ type }/upscaled/${ fNumber }_foil_${ etch }_${ style }_2x.${ ext }`;
 
   }
 
